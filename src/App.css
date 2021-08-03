@@ -1,38 +1,50 @@
-.App {
+body {
+  background: #e5e5e5;
+}
+
+h1 {
+  position: absolute;
+  width: 512px;
+  height: 85px;
+  left: 464px;
+  top: 100px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 73px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.searchBar {
+  position: absolute;
+  width: 1240px;
+  height: 60px;
+  left: 70px;
+  top: 292px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  background: #f4f4f4;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 15px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.productCard {
+  position: absolute;
+  width: 1240px;
+  height: 500px;
+  left: 100px;
+  top: 392px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background: #f4f4f4;
+  border-radius: 15px;
 }
